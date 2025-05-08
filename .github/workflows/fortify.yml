@@ -39,5 +39,6 @@ jobs:
     secrets:
       FOD_CLIENT_ID: ${{ secrets.FOD_CLIENT_ID }}
       FOD_CLIENT_SECRET: ${{ secrets.FOD_CLIENT_SECRET }}
+      FOD_APPNAME: ${{ secrets.FOD_APPNAME }}
       http_proxy: ${{ secrets.HTTP_PROXY }}
       https_proxy: ${{ secrets.HTTPS_PROXY }}
