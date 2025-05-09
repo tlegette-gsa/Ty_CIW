@@ -28,6 +28,7 @@ on:
 
 jobs:
   Fortify-AST-Scan:
+    permissions: read-all
     uses: GSA/ise-appsec/.github/workflows/github-fortify-src2.yml@main
     with:
       PACKAGE_EXTRA_OPTS: ''
